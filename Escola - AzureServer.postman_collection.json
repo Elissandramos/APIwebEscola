@@ -1,0 +1,248 @@
+{
+	"info": {
+		"_postman_id": "8c44332e-5d5c-4c8f-b3cb-9d04b24aa94e",
+		"name": "Escola - AzureServer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21621669"
+	},
+	"item": [
+		{
+			"name": "Consultar Todos os Alunos ativos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7027/api/Aluno",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7027",
+					"path": [
+						"api",
+						"Aluno"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultar Aluno pelo Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7027/api/Aluno",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7027",
+					"path": [
+						"api",
+						"Aluno"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Incluir Aluno",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \r\n  \"nome\": \"Pele\",\r\n  \"dataNascimento\": \"2022-07-04T16:31:46.717Z\",\r\n  \"sexo\": \"m\",\r\n  \"totalFaltas\": 0,  \r\n  \"turma\": {    \r\n    \"nome\": \"turmaB\",\r\n    \"ativo\": true\r\n  }\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7027/api/Aluno",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7027",
+					"path": [
+						"api",
+						"Aluno"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizar Aluno",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 2,\r\n  \"nome\": \"Joel\",\r\n  \"dataNascimento\": \"2022-07-04T19:21:08.462Z\",\r\n  \"sexo\": \"f\",\r\n  \"totalFaltas\": 0,\r\n  \"turmaid\": 1,\r\n  \"turma\": {\r\n    \"id\": 1,\r\n    //\"nome\": \"turmaC\",\r\n    \"ativo\": true\r\n  }}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7027/api/Aluno/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7027",
+					"path": [
+						"api",
+						"Aluno",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Excluir Aluno por id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7022/api/Contato",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7022",
+					"path": [
+						"api",
+						"Contato"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultar Todas as Turmas ativas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7027/api/Aluno",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7027",
+					"path": [
+						"api",
+						"Aluno"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultar Turma pelo Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7027/api/Aluno",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7027",
+					"path": [
+						"api",
+						"Aluno"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Incluir Turma",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"nome\": \"string\",\r\n  \"ativo\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7027/api/Turma",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7027",
+					"path": [
+						"api",
+						"Turma"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualizar Turma",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"nome\": \"coding girls\",\r\n  \"ativo\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7027/api/Turma/11",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7027",
+					"path": [
+						"api",
+						"Turma",
+						"11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Excluir Turma por id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7022/api/Contato",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7022",
+					"path": [
+						"api",
+						"Contato"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
