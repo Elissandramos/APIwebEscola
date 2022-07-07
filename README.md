@@ -1,7 +1,8 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Elissandramos/APIwebEscola/blob/main/LICENSE) 
 ## APIwebEscola
-<br/>Projeto final do bootcamp 'Coding girls', parceria BlueEdTech  [BlueEdTech](https://blueedtech.com.br/) e [RDI by Capgemin](https://www.rdisoftware.com/)  
-elaborado em 07/07/2022.
+<br/>Projeto final do bootcamp 'Coding girls', parceria BlueEdTech  [BlueEdTech](https://blueedtech.com.br/) e [RDI by Capgemin](https://www.rdisoftware.com/)  Elaborado em: 07/07/2022.
+
+[Download Escopo Projeto](https://github.com/Elissandramos/APIwebEscola/blob/main/EscopoProjetoBlueEdTech.pdf)
 
 ## Objetivo
 Desenvolver uma web API que nos permita gerenciar os alunos de uma instituição de ensino.
